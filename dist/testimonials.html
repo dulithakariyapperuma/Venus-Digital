@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050708">
+  <meta name="description" content="Client stories, video testimonials, and verified 5-star reviews from Venus Digital’s content marketing and AI automation work.">
+  <title>Client Testimonials & Verified Reviews — Venus Digital</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23050708'/%3E%3Cpath d='M16 17 32 48 48 17' fill='none' stroke='%23e4b47d' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="booking.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="testimonials.js" defer></script>
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+<body class="testimonials-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header interior-header">
+    <a class="brand" href="index.html#home" aria-label="Venus Digital home">VENUS DIGITAL</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="index.html#services">Services</a>
+      <a href="index.html#solutions">AI solutions</a>
+      <a href="index.html#approach">Our approach</a>
+      <a href="testimonials.html" aria-current="page">Testimonials</a>
+      <button class="button button-outline header-cta" data-contact>Book a Call</button>
+    </nav>
+  </header>
+  <main id="main" class="testimonials-main">
+    <section class="testimonials-heading">
+      <p class="eyebrow">Proven Results & Client Feedback</p>
+      <h1>Client Stories.<br><em>Measurable Impact.</em></h1>
+      <p>Watch video reviews from our brand partners, and explore verified 5-star ratings from growing businesses across the United States.</p>
+    </section>
+
+    <!-- Section 1: Sliding Video Testimonials (Concept 1: Modern Curve Reel) -->
+    <section class="testimonials-section" aria-labelledby="video-stories-title">
+      <div class="slider-header-row">
+        <div>
+          <p class="eyebrow">01 / Video Testimonials</p>
+          <h2 id="video-stories-title">Don't Just Take Our Word, Experience the Success of Countless Clients</h2>
+          <p style="color:var(--muted);margin:8px 0 0;">Watch direct video feedback from founders, creators, and healthcare leaders scaling with Venus Digital.</p>
+        </div>
+        <div class="slider-controls" aria-label="Video slider controls">
+          <button class="slider-arrow-btn" id="video-prev-btn" aria-label="Previous video">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="slider-arrow-btn" id="video-next-btn" aria-label="Next video">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Sliding Reel Track -->
+      <div class="sliding-reel-track" id="video-slider-track">
+        <!-- 1. Giuliana Zaccardelli — Zuri Fertility -->
+        <article class="sliding-video-item">
+          <div class="sliding-video-frame">
+            <video preload="metadata" playsinline controls aria-label="Giuliana Zaccardelli client video">
+              <source src="assets/videos/video-1.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-play-overlay" aria-label="Play Giuliana Zaccardelli video">
+              <div class="play-icon-circle">
+                <svg viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+              </div>
+            </div>
+          </div>
+          <div class="sliding-video-info">
+            <h3>Giuliana Zaccardelli</h3>
+            <p>Founder &amp; CEO <span>@Zuri fertility</span></p>
+          </div>
+        </article>
+
+        <!-- 2. Dr. Sandara Ho — Avant Allergy -->
+        <article class="sliding-video-item">
+          <div class="sliding-video-frame">
+            <video preload="metadata" playsinline controls aria-label="Dr. Sandara Ho client video">
+              <source src="assets/videos/video-2.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-play-overlay" aria-label="Play Dr. Sandara Ho video">
+              <div class="play-icon-circle">
+                <svg viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+              </div>
+            </div>
+          </div>
+          <div class="sliding-video-info">
+            <h3>Dr. Sandara Ho</h3>
+            <p>Founder &amp; Allergist <span>@Avant Allergy</span></p>
+          </div>
+        </article>
+
+        <!-- 3. George Carvalho — Founder & CEO @ Carvalho Healthcare -->
+        <article class="sliding-video-item">
+          <div class="sliding-video-frame">
+            <video preload="metadata" playsinline controls aria-label="George Carvalho client video">
+              <source src="assets/videos/video-3.mp4" type="video/mp4">
+              <source src="assets/videos/recommendation%203.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-play-overlay" aria-label="Play George Carvalho video">
+              <div class="play-icon-circle">
+                <svg viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+              </div>
+            </div>
+          </div>
+          <div class="sliding-video-info">
+            <h3>George Carvalho</h3>
+            <p>Founder &amp; CEO <span>@Carvalho Healthcare</span></p>
+          </div>
+        </article>
+
+        <!-- 4. Daniel Bordenave — founder Bisep.org -->
+        <article class="sliding-video-item">
+          <div class="sliding-video-frame">
+            <video preload="metadata" playsinline controls aria-label="Daniel Bordenave client video">
+              <source src="assets/videos/video-4.mp4" type="video/mp4">
+              <source src="assets/videos/recommendation%204.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-play-overlay" aria-label="Play Daniel Bordenave video">
+              <div class="play-icon-circle">
+                <svg viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+              </div>
+            </div>
+          </div>
+          <div class="sliding-video-info">
+            <h3>Daniel Bordenave</h3>
+            <p>Founder &amp; CEO <span>@Bisep.org</span></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 2: Sliding Text Testimonials (Concept 2: Large Quote & Carousel) -->
+    <section class="testimonials-section" aria-labelledby="text-reviews-title">
+      <div class="slider-header-row">
+        <div style="display:flex;align-items:center;gap:18px;">
+          <div class="quote-icon-badge" aria-hidden="true">“</div>
+          <div>
+            <p class="eyebrow" style="margin:0 0 4px;">02 / Verified Executive Reviews</p>
+            <h2 id="text-reviews-title" style="margin:0;">What Our Partners Experience</h2>
+          </div>
+        </div>
+        <div class="slider-controls" aria-label="Review slider controls">
+          <button class="slider-arrow-btn" id="text-prev-btn" aria-label="Previous review">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="slider-arrow-btn" id="text-next-btn" aria-label="Next review">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Sliding Text Track -->
+      <div class="sliding-reel-track" id="text-slider-track">
+        <!-- Review 1 -->
+        <article class="sliding-text-item">
+          <div>
+            <div class="review-badge-row">
+              <span class="service-pill">Brand &amp; Video Identity</span>
+              <span class="curved-stars">★★★★★</span>
+            </div>
+            <h3 class="sliding-headline">"It's been a fantastic experience"</h3>
+            <p class="sliding-body">“I’d be more than happy to give a case study because you’ve been such an incredible help to me, from the moment we engaged to building that brand identity. Being connected with the team, the communication, and the extra mile you’ve taken have been invaluable for me, especially as someone completely new to this. For anyone considering it, I’d happily recommend you. It’s been a fantastic experience.”</p>
+          </div>
+          <div class="sliding-author-row">
+            <div class="sliding-avatar">DT</div>
+            <div class="sliding-author-meta">
+              <h4>Daniel Trkulja</h4>
+              <p><span>@Threadlabs</span> · United States</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review 2 -->
+        <article class="sliding-text-item">
+          <div>
+            <div class="review-badge-row">
+              <span class="service-pill">Social Growth &amp; Strategy</span>
+              <span class="curved-stars">★★★★★</span>
+            </div>
+            <h3 class="sliding-headline">"The result was real growth"</h3>
+            <p class="sliding-body">“I have to say, I'm very impressed, not just by the competence and diligence that Chali and his team has, but how insightful and thoughtful they are in providing custom-made solutions in terms of social media promotions, strategy, and various techniques, even in relation to production. Their strategic execution drove immediate tangible results.”</p>
+          </div>
+          <div class="sliding-author-row">
+            <div class="sliding-avatar">SB</div>
+            <div class="sliding-author-meta">
+              <h4>Shaveen Bandaranayake</h4>
+              <p><span>@TheLawSimplified</span> · United States</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review 3 -->
+        <article class="sliding-text-item">
+          <div>
+            <div class="review-badge-row">
+              <span class="service-pill">Personal Brand &amp; Content</span>
+              <span class="curved-stars">★★★★★</span>
+            </div>
+            <h3 class="sliding-headline">"The Biggest Transformation Was My Confidence"</h3>
+            <p class="sliding-body">“Before joining Venus Digital, I wanted to grow on social media but lacked the confidence and clarity to put myself out there. I often overthought my content, struggled with consistency, and didn't know how to build my personal brand. Venus Digital changed that. They helped me find my voice, define my brand, and gave me the accountability to show up consistently.”</p>
+          </div>
+          <div class="sliding-author-row">
+            <div class="sliding-avatar">AL</div>
+            <div class="sliding-author-meta">
+              <h4>Alejandra Lopez</h4>
+              <p><span>PCOS &amp; Fitness Creator</span> · United States</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review 4 -->
+        <article class="sliding-text-item">
+          <div>
+            <div class="review-badge-row">
+              <span class="service-pill">AI Content Automation</span>
+              <span class="curved-stars">★★★★★</span>
+            </div>
+            <h3 class="sliding-headline">"Production turnaround cut from 14 days to 48 hours"</h3>
+            <p class="sliding-body">“Venus Digital completely transformed our content pipeline. Their custom AI automation cut our production turnaround from two weeks to under 48 hours, while our organic engagement on LinkedIn and Instagram grew by 240% in just 90 days. An indispensable partner for our marketing team.”</p>
+          </div>
+          <div class="sliding-author-row">
+            <div class="sliding-avatar">MV</div>
+            <div class="sliding-author-meta">
+              <h4>Marcus Vance</h4>
+              <p>CMO <span>@OmniScale Health</span> · Austin, TX</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review 5 -->
+        <article class="sliding-text-item">
+          <div>
+            <div class="review-badge-row">
+              <span class="service-pill">AI Reception &amp; Booking</span>
+              <span class="curved-stars">★★★★★</span>
+            </div>
+            <h3 class="sliding-headline">"Captured $380k in after-hours pipeline"</h3>
+            <p class="sliding-body">“The AI receptionist and automated lead routing system handles hundreds of monthly inbound inquiries without skipping a beat. We captured over $380k in new pipeline that previously went cold after hours. The ROI was clear within the first 30 days.”</p>
+          </div>
+          <div class="sliding-author-row">
+            <div class="sliding-avatar">ER</div>
+            <div class="sliding-author-meta">
+              <h4>Elena Rostova</h4>
+              <p>VP of Growth <span>@Apex Peak Financial</span> · New York, NY</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review 6 -->
+        <article class="sliding-text-item">
+          <div>
+            <div class="review-badge-row">
+              <span class="service-pill">Multi-Channel Growth</span>
+              <span class="curved-stars">★★★★★</span>
+            </div>
+            <h3 class="sliding-headline">"Surged our reach across YouTube and TikTok"</h3>
+            <p class="sliding-body">“Partnering with Venus Digital gave us a full-stack media and automation team without the operational overhead. Our video views surged by 380% in the first 60 days, establishing consistent inbound organic qualified leads.”</p>
+          </div>
+          <div class="sliding-author-row">
+            <div class="sliding-avatar">RH</div>
+            <div class="sliding-author-meta">
+              <h4>Rachel Hayes</h4>
+              <p>Marketing Director <span>@Nexus Cloud Tech</span> · Seattle, WA</p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Trust Metrics Callout -->
+      <div class="stats-callout">
+        <div class="stat-item">
+          <div class="stat-num">5.0 ★</div>
+          <div class="stat-label">Average Client Rating</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">3.4x</div>
+          <div class="stat-label">Average Organic Reach Multiplier</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">45+ hrs</div>
+          <div class="stat-label">Saved Per Month on Content Workflows</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">US &amp; Global Partner Retention</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Consultation Section -->
+    <section class="sandaras-section section-wrap" id="book-a-call">
+      <div class="sandaras-portrait">
+        <img src="assets/sandaras.png" alt="Sandaras - Founder of Venus Digital" loading="lazy" width="1277" height="1423">
+        <div class="founder-badge-overlay">
+          <span class="founder-tag-pill">FOUNDER</span>
+          <span class="founder-name">Sandaras · Venus Digital</span>
+        </div>
+      </div>
+      <div class="sandaras-copy">
+        <p class="eyebrow">SANDARAS · FOUNDER &amp; STRATEGY LEAD</p>
+        <h2>Your next chapter<br><span>starts with a conversation.</span></h2>
+        <p>Schedule a focused strategy session to assess your content pipeline, social channels, and the operations you can automate with AI. We’ll outline a high-impact roadmap designed for your brand’s growth.</p>
+        <button class="button button-gold" data-contact>Book a Call</button>
+        <p class="call-format">A focused 30-minute consultation on Google Meet.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <a class="brand" href="index.html#home">VENUS DIGITAL</a>
+    <p>Content marketing &amp; AI automation</p>
+    <div class="footer-legal-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <span class="footer-legal-dot">·</span>
+      <a href="terms.html">Terms &amp; Conditions</a>
+    </div>
+    <span>© <span id="year">2026</span> Venus Digital LLC</span>
+  </footer>
+</body>
+</html>
